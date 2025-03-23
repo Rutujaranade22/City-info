@@ -9,7 +9,7 @@ const root = createRoot(document.getElementById("root"));
 root.render(<h1>
     <Navbar />
     <History />
-    <h1 className="font-bold text-3xl pb-[20px] ">Tourist Places</h1>
+    <h1 className="font-bold text-3xl pb-[20px] ml-[70px] w-80 bg-cyan-300">Attraction in Sinnar</h1>
 
     <div className="flex gap-10 w-[90%] flex-wrap m-auto justify-between mt-[20px]">
         <Content

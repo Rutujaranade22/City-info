@@ -1,21 +1,22 @@
-import Logo from "./../images/logo.jpeg"
-
-export default function Navbar(){
-    return(
-        <>
-        <div className="w-[100%] h-[70px] bg-slate-400 text-slate-800 justify-between text-xl font-serif cursor-pointer">
-        <div className="pt-[20px] pl-[20px]">
-        <img src={Logo} className="w-[90px] h-auto "></img>
+ 
+export default function Navbar() {
+  return (
+    <>
+      <div className="w-full h-[70px] bg-slate-400 text-slate-800 mx-auto flex items-center justify-between text-xl font-serif cursor-pointer px-4">
+        {/* Logo and Title Section */}
+        <div className="flex flex-col items-center pl-4">
+           <h1 className="text-2xl font-bold mt-1 font-[cursive] text-black">Sinnar City...🌆</h1>
         </div>
 
-            <div>
-                <ul className="flex gap-16 mt-[19px] mr-[50px]">
-                <li className="hover:text-slate-600">Home</li>
-                        <li className="hover:text-slate-600">About</li>
-                        <li className="hover:text-slate-600">Contact</li>
-                    </ul>
-            </div>
-        </div>
-        </>
-    )
+        {/* Navigation Menu */}
+        <nav>
+          <ul className="flex gap-16 mt-[10px] mr-[50px]">
+            <li className="hover:text-rose-800">🏠</li>
+            <li className="hover:text-rose-800">📞</li>
+            <li className="hover:text-rose-800">🚂</li>
+          </ul>
+        </nav>
+      </div>
+    </>
+  );
 }

@@ -2,7 +2,7 @@ export default function Content (props){
     const {image, name , category, desc}= props;
     return(
         <>
-            <div className="w-[400px] h-[450px] border border-gray-300 rounded-lg">
+            <div className="w-[400px] h-[500px] border border-gray-300 rounded-lg">
                 <div className="w-[360px] block m-auto mt-[10px] mb-[15px]">
                     <img src={image} alt="" className="w-[360px]"/>
                 </div>
